@@ -9,8 +9,8 @@ import Celebration from "@/components/celebration";
 import FloralCorner from "@/components/floral-corner";
 import InvitationSection from "@/components/invitation";
 // TODO: swap these for the couple's real names once confirmed
-const GROOM_NAME = "Rajesh";
-const BRIDE_NAME = "Akhila";
+const GROOM_NAME = "Manoj";
+const BRIDE_NAME = "Mounika sri";
 // TODO: replace hero image — currently a placeholder
 // const HERO_IMAGE = "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1920&auto=format&fit=crop";
 const HERO_IMAGE = "/hero_l.jpeg";

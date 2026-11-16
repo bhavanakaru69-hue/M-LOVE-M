@@ -8,7 +8,7 @@ import { Clock, HeartHandshake } from "lucide-react";
 import FloralCorner from "@/components/floral-corner";
 
 // Keep this in sync with the date shown in the hero section
-const TARGET_DATE = "Augest 30, 2026 00:00:00";
+const TARGET_DATE = "December 3, 2026 10:00:00";
 const HERO_IMAGE =
   "/timer.png";
 

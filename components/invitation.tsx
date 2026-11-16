@@ -8,14 +8,14 @@ import FloralCorner from "@/components/floral-corner";
 import FloralDivider from "@/components/floral-divider";
 
 // TODO: replace with the couple's real names, families, and background image
-const GROOM_NAME = "Rajesh";
-const BRIDE_NAME = "Akhila";
+const GROOM_NAME = "Manoj";
+const BRIDE_NAME = "amounika sri";
 const GROOM_FAMILY = "Mr. & Mrs. kumar";
-const BRIDE_FAMILY = "Mr. & Mrs. Swamy";
+const BRIDE_FAMILY = "Mr. & Mrs. Rama chandra rao & Rani";
 const CLOSING_IMAGE =
   "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1920&auto=format&fit=crop";
 // TODO: point this at a real RSVP form / WhatsApp link / mailto address
-const RSVP_LINK = "mailto:jadagalaa@gmail.com";
+const RSVP_LINK = "mailto:bhavanakaru69@gmail.com";
 
 export default function InvitationSection() {
   return (

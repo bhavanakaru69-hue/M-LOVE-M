@@ -7,9 +7,8 @@ import { Heart, Sparkles, Disc, Calendar } from "lucide-react";
 import FloralDivider from "@/components/floral-divider";
 
 // TODO: replace with the couple's real photos once available
-const GROOM_PHOTO =
-  "/raj.png";
-const BRIDE_PHOTO  = '/akhi.png';
+const GROOM_PHOTO ="/groom.jpg";
+const BRIDE_PHOTO  = '/bride.jpeg';
 const GOLD = "#B98D4F";
 
 const storyMilestones = [
@@ -101,31 +100,88 @@ export default function OurStorySection() {
       {/* Milestones */}
       <div className="max-w-5xl w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4 relative z-10 px-2">
         {storyMilestones.map((milestone, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            whileHover={{ y: -6, boxShadow: "0 18px 30px -12px rgba(185,141,79,0.25)" }}
-            transition={{ duration: 0.7, delay: index * 0.12, ease: [0.16, 1, 0.3, 1] }}
-            viewport={{ once: true }}
-            className="flex flex-col items-center text-center p-5 rounded-xl bg-white border-t-2 border-t-[#B98D4F] border-x border-b border-[#221F1B]/5 relative shadow-sm group"
-          >
-            <div className="p-2.5 rounded-full bg-[#FAF6EE] border border-[#B98D4F]/30 mb-3">
-              {milestone.icon}
-            </div>
+         
+<motion.div
+  key={index}
+  initial={{ opacity: 0, y: 40, scale: 0.95 }}
+  whileInView={{ opacity: 1, y: 0, scale: 1 }}
+  whileHover={{
+    y: -8,
+    boxShadow: "0 20px 35px -12px rgba(185,141,79,0.2)",
+  }}
+  transition={{
+    duration: 0.7,
+    delay: index * 0.12,
+    ease: [0.16, 1, 0.3, 1],
+  }}
+  viewport={{ once: true }}
+  className="relative group flex flex-col items-center text-center
+    overflow-hidden p-5 sm:p-6 rounded-[24px]
+    bg-gradient-to-b from-[#FFF9F5] via-[#FFFEFC] to-[#F9EFEB]
+    border border-[#D9B77E]/40
+    shadow-[0_8px_25px_rgba(80,50,30,0.05)]"
+>
+  {/* Background decorations */}
+  <div className="absolute -top-12 -right-12 w-36 h-36
+    rounded-full bg-pink-200/30 blur-3xl pointer-events-none" />
 
-            <span className="text-[10px] sm:text-[11px] tracking-widest text-[#B98D4F] uppercase mb-1">
-              {milestone.date}
-            </span>
+  <div className="absolute -bottom-12 -left-12 w-36 h-36
+    rounded-full bg-amber-100/50 blur-3xl pointer-events-none" />
 
-            <h3 className="font-serif text-base sm:text-lg text-[#221F1B] mb-1.5">
-              {milestone.title}
-            </h3>
+  {/* Decorative hearts */}
+  <span className="absolute top-5 left-5 text-2xl
+    text-[#E8B7B7]/70 group-hover:scale-125 transition-transform">
+    ♡
+  </span>
 
-            <p className="font-sans text-[11px] sm:text-xs text-[#221F1B]/60 italic leading-relaxed">
-              {milestone.quote}
-            </p>
-          </motion.div>
+  <span className="absolute top-8 right-6 text-sm text-[#C9A56D]">
+    ✦
+  </span>
+
+  <span className="absolute bottom-20 right-5 text-pink-300 text-lg">
+    ♡
+  </span>
+
+  {/* Milestone icon */}
+  <div className="relative z-10 w-12 h-12 rounded-full
+    flex items-center justify-center
+    bg-white border border-[#D9B77E]/50
+    text-[#B98D4F] shadow-[0_3px_10px_rgba(185,141,79,0.12)]
+    mb-4 group-hover:rotate-12 transition-transform duration-500">
+    {milestone.icon}
+  </div>
+
+  {/* Date */}
+  <span className="relative z-10 text-[10px] sm:text-[11px]
+    tracking-[0.25em] uppercase font-medium
+    text-[#B98D4F] mb-2">
+    {milestone.date}
+  </span>
+
+  {/* Title */}
+  <h3 className="relative z-10 font-serif text-lg sm:text-xl
+    text-[#33251F] mb-2 group-hover:text-[#A47743]
+    transition-colors duration-300">
+    {milestone.title}
+  </h3>
+
+  {/* Quote */}
+  <p className="relative z-10 max-w-[230px]
+    font-sans text-xs sm:text-[13px]
+    text-[#806F65] italic leading-relaxed">
+    "{milestone.quote}"
+  </p>
+
+  {/* Bottom ornament */}
+  <div className="relative z-10 mt-5 flex items-center gap-3">
+    <span className="w-9 h-px bg-gradient-to-r
+      from-transparent to-[#D9B77E]" />
+    <span className="text-[#C69B62] text-sm">♥</span>
+    <span className="w-9 h-px bg-gradient-to-l
+      from-transparent to-[#D9B77E]" />
+  </div>
+</motion.div>
+
         ))}
       </div>
     </section>

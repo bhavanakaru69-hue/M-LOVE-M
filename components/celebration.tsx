@@ -15,7 +15,7 @@ const events = [
     googleMapsUrl: "https://maps.app.goo.gl/AZs54tLnGRR8Q2Xy9",
     description: "Sacred vows and timeless promises exchanged in the presence of loved ones.",
     icon: <span className="text-xl font-bold text-[#B98D4F]">ॐ</span> ,
-    image:"/holding_pinky.png",
+    image:"/pinky_holding.webp",
   },
   {
     title: "Reception & Dinner",
@@ -24,7 +24,7 @@ const events = [
     googleMapsUrl: "https://maps.app.goo.gl/Z8svvFmUzKekcbse7",
     description: "An evening of celebratory toasts, exquisite dining, and joyful music.",
     icon: <UtensilsCrossed className="w-5 h-5 text-[#B98D4F]" />,
-    image:"/dinner.png"  },
+    image:"/dinner.avif"  },
 ];
 
 export default function CelebrationSection() {

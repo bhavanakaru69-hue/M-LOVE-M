@@ -99,7 +99,7 @@ export default function OurStorySection() {
       </motion.div>
 
       {/* Milestones */}
-      <div className="max-w-5xl w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4 relative z-10 px-2">
+      <div className="max-w-5xl w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 relative z-10 px-2">
         {storyMilestones.map((milestone, index) => (
          
 <motion.div

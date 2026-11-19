@@ -34,7 +34,7 @@ const storyMilestones = [
   {
     icon: <Sparkles className="w-4 h-4" style={{ color: GOLD }} />,
     title: "Haldi Ceremony",
-    date: "Dec 02, 2026",
+    date: "Nov 29, 2026",
     quote: "Drenched in love, laughter, and a golden glow of new beginnings.",
   },
   {

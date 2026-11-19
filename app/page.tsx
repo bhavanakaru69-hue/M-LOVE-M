@@ -16,10 +16,10 @@ const GROOM_NAME = "Manoj";
 const BRIDE_NAME = "Mounika sri";
 const HERO_IMAGE = "/Couple.png";
 const WEDDING_DATE = "Dec 03, 2026";
-const WEDDING_VENUE = "Koheda, Siddipet";
+const WEDDING_VENUE = "SRI Subbireddy Lakshmi UTSAV, Tapeswaram";
 
 export default function WeddingPage() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
 
   const audioRef = useRef<HTMLAudioElement>(null);

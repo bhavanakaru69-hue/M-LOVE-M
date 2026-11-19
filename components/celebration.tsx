@@ -11,8 +11,8 @@ const events = [
   {
     title: "The Ceremony",
     time: "10:00 AM onwards",
-    location: "Koheda,Siddipet",
-    googleMapsUrl: "https://maps.app.goo.gl/AZs54tLnGRR8Q2Xy9",
+    location: "SRI Subbireddy Lakshmi UTSAV, Tapeswaram",
+    googleMapsUrl: "https://maps.app.goo.gl/8XKMLd8NSn3x3ms89?g_st=aw",
     description: "Sacred vows and timeless promises exchanged in the presence of loved ones.",
     icon: <span className="text-xl font-bold text-[#B98D4F]">ॐ</span> ,
     image:"/pinky_holding.webp",
@@ -20,8 +20,8 @@ const events = [
   {
     title: "Reception & Dinner",
     time: "12:30 PM onwards",
-    location: "Katta Rampur",
-    googleMapsUrl: "https://maps.app.goo.gl/Z8svvFmUzKekcbse7",
+    location: "SRI Subbireddy Lakshmi UTSAV, Tapeswaram",
+    googleMapsUrl: "https://maps.app.goo.gl/8XKMLd8NSn3x3ms89?g_st=aw",
     description: "An evening of celebratory toasts, exquisite dining, and joyful music.",
     icon: <UtensilsCrossed className="w-5 h-5 text-[#B98D4F]" />,
     image:"/dinner.avif"  },

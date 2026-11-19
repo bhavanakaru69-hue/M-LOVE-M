@@ -10,36 +10,37 @@ import FloralDivider from "@/components/floral-divider";
 const GROOM_PHOTO ="/groom.jpg";
 const BRIDE_PHOTO  = '/bride.jpeg';
 const GOLD = "#B98D4F";
+//  {
+//     icon: <Disc className="w-4 h-4" style={{ color: GOLD }} />,
+//     title: "Engagement",
+//     date: "Aug 15, 2026",
+//     quote: "A promise of forever sealed with a joyful 'Yes'.",
+//   },
 
 const storyMilestones = [
   {
     icon: <Heart className="w-4 h-4" style={{ color: GOLD }} />,
     title: "First Encounter",
-    date: "june 21, 2026",
+    date: "sep 19, 2019",
     quote: "A chance glance that changed our entire world forever.",
   },
-  {
-    icon: <Sparkles className="w-4 h-4" style={{ color: GOLD }} />,
-    title: "First Step",
-    date: "july 12, 2026",
-    quote: "Deciding to walk the same path, hand in hand.",
-  },
-  {
-    icon: <Disc className="w-4 h-4" style={{ color: GOLD }} />,
-    title: "Engagement",
-    date: "Aug 15, 2026",
-    quote: "A promise of forever sealed with a joyful 'Yes'.",
-  },
+  // {
+  //   icon: <Sparkles className="w-4 h-4" style={{ color: GOLD }} />,
+  //   title: "First Step",
+  //   date: "2020",
+  //   quote: "Deciding to walk the same path, hand in hand.",
+  // },
+ 
   {
     icon: <Sparkles className="w-4 h-4" style={{ color: GOLD }} />,
     title: "Haldi Ceremony",
-    date: "Aug 29, 2026",
+    date: "Dec 02, 2026",
     quote: "Drenched in love, laughter, and a golden glow of new beginnings.",
   },
   {
     icon: <Calendar className="w-4 h-4" style={{ color: GOLD }} />,
     title: "The Marriage",
-    date: "Aug 30, 2026",
+    date: "Dec 03, 2026",
     quote: "Beginning our greatest adventure as husband and wife.",
   },
 ];
